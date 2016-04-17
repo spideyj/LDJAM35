@@ -352,6 +352,12 @@ MonoBehaviour:
   portraits:
   - {fileID: 21300000, guid: 8d6f0358e3dc491439c79c868a82f33a, type: 3}
   - {fileID: 21300000, guid: 86dcec4a1a7ac1048b118a66e75d09ad, type: 3}
+  - {fileID: 21300000, guid: e1949ae3e205999479eba3aada6634dd, type: 3}
+  - {fileID: 21300000, guid: 422332e786311784197f755292fd7f60, type: 3}
+  - {fileID: 21300000, guid: d139bc33633330e44ad0891f4be8cb5d, type: 3}
+  - {fileID: 21300000, guid: 7c6b2c6699536e640bd012b3326f6802, type: 3}
+  - {fileID: 21300000, guid: ea1c2aeea03e7bc40887b7d51729736c, type: 3}
+  - {fileID: 21300000, guid: 491de566ed5382643b6087fc063d96b0, type: 3}
   portraitsFace: 0
   setSayDialog: {fileID: 393948828}
   description: 
@@ -431,6 +437,48 @@ MonoBehaviour:
     m_VerticalOverflow: 0
     m_LineSpacing: 1
   m_Text: Character Name
+--- !u!1 &80954582
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 149266, guid: ffbd0831d997545eab75c364da082c1b, type: 2}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 80954584}
+  - 114: {fileID: 80954583}
+  m_Layer: 0
+  m_Name: Localization
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &80954583
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 11438504, guid: ffbd0831d997545eab75c364da082c1b,
+    type: 2}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 80954582}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e5724422a635e425bae0af9ffe2615d6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  activeLanguage: 
+  localizationFile: {fileID: 0}
+--- !u!4 &80954584
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 480768, guid: ffbd0831d997545eab75c364da082c1b, type: 2}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 80954582}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 1
 --- !u!1 &156412928
 GameObject:
   m_ObjectHideFlags: 0
@@ -2391,7 +2439,7 @@ RectTransform:
   m_Children:
   - {fileID: 748362773}
   m_Father: {fileID: 0}
-  m_RootOrder: 2
+  m_RootOrder: 3
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
   m_AnchoredPosition: {x: 0, y: 0}
@@ -2659,7 +2707,7 @@ RectTransform:
   m_Children:
   - {fileID: 1618020766}
   m_Father: {fileID: 0}
-  m_RootOrder: 3
+  m_RootOrder: 4
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
   m_AnchoredPosition: {x: 0, y: 0}
@@ -4901,7 +4949,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 6
+  m_RootOrder: 7
 --- !u!1 &1065823351
 GameObject:
   m_ObjectHideFlags: 0
@@ -5032,6 +5080,13 @@ GameObject:
   - 114: {fileID: 1065823473}
   - 114: {fileID: 1065823472}
   - 114: {fileID: 1065823471}
+  - 114: {fileID: 1065823477}
+  - 114: {fileID: 1065823475}
+  - 114: {fileID: 1065823479}
+  - 114: {fileID: 1065823481}
+  - 114: {fileID: 1065823480}
+  - 114: {fileID: 1065823478}
+  - 114: {fileID: 1065823476}
   m_Layer: 0
   m_Name: OwenFlowchart
   m_TagString: Untagged
@@ -5065,7 +5120,7 @@ MonoBehaviour:
     height: 1393
   selectedBlock: {fileID: 1065823402}
   selectedCommands:
-  - {fileID: 1065823471}
+  - {fileID: 1065823474}
   variables:
   - {fileID: 1065823353}
   - {fileID: 1065823415}
@@ -5108,7 +5163,7 @@ MonoBehaviour:
   storyText: You know, Owen Obtuse, star rugby player?
   description: 
   character: {fileID: 58142487}
-  portrait: {fileID: 0}
+  portrait: {fileID: 21300000, guid: 8d6f0358e3dc491439c79c868a82f33a, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -5268,7 +5323,7 @@ MonoBehaviour:
     I'm not interested in really changing it.
   description: 
   character: {fileID: 58142487}
-  portrait: {fileID: 0}
+  portrait: {fileID: 21300000, guid: 8d6f0358e3dc491439c79c868a82f33a, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -5319,7 +5374,7 @@ MonoBehaviour:
   storyText: Well... Hmmm...
   description: 
   character: {fileID: 58142487}
-  portrait: {fileID: 0}
+  portrait: {fileID: 21300000, guid: 8d6f0358e3dc491439c79c868a82f33a, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -5451,7 +5506,7 @@ MonoBehaviour:
   storyText: I don't know about that, doc...
   description: 
   character: {fileID: 58142487}
-  portrait: {fileID: 0}
+  portrait: {fileID: 21300000, guid: ea1c2aeea03e7bc40887b7d51729736c, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -5581,7 +5636,7 @@ MonoBehaviour:
   storyText: Yeah...
   description: 
   character: {fileID: 58142487}
-  portrait: {fileID: 0}
+  portrait: {fileID: 21300000, guid: 8d6f0358e3dc491439c79c868a82f33a, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -5633,7 +5688,7 @@ MonoBehaviour:
     a good triangle.
   description: 
   character: {fileID: 58142487}
-  portrait: {fileID: 0}
+  portrait: {fileID: 21300000, guid: 8d6f0358e3dc491439c79c868a82f33a, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -5752,7 +5807,7 @@ MonoBehaviour:
   storyText: Absolutely.
   description: 
   character: {fileID: 58142487}
-  portrait: {fileID: 21300000, guid: 585a602165473ed4b9c50fabb89a6f09, type: 3}
+  portrait: {fileID: 21300000, guid: 8d6f0358e3dc491439c79c868a82f33a, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -5856,7 +5911,7 @@ MonoBehaviour:
   storyText: Well, hello, Doctor. Nice to meet you! I'm Owen Obtuse.
   description: 
   character: {fileID: 58142487}
-  portrait: {fileID: 0}
+  portrait: {fileID: 21300000, guid: 8d6f0358e3dc491439c79c868a82f33a, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -6085,7 +6140,7 @@ MonoBehaviour:
     just not in the right spot any more!
   description: 
   character: {fileID: 58142487}
-  portrait: {fileID: 0}
+  portrait: {fileID: 21300000, guid: ea1c2aeea03e7bc40887b7d51729736c, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -6244,7 +6299,7 @@ MonoBehaviour:
     to bother me. Can you fix it, Doc?
   description: 
   character: {fileID: 58142487}
-  portrait: {fileID: 0}
+  portrait: {fileID: 21300000, guid: 8d6f0358e3dc491439c79c868a82f33a, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -6350,7 +6405,7 @@ MonoBehaviour:
   storyText: '...'
   description: 
   character: {fileID: 58142487}
-  portrait: {fileID: 0}
+  portrait: {fileID: 21300000, guid: ea1c2aeea03e7bc40887b7d51729736c, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -6466,6 +6521,9 @@ MonoBehaviour:
   commandList:
   - {fileID: 1065823404}
   - {fileID: 1065823422}
+  - {fileID: 1065823478}
+  - {fileID: 1065823476}
+  - {fileID: 1065823475}
   - {fileID: 1065823421}
 --- !u!114 &1065823408
 MonoBehaviour:
@@ -6490,6 +6548,9 @@ MonoBehaviour:
   eventHandler: {fileID: 0}
   commandList:
   - {fileID: 1065823405}
+  - {fileID: 1065823481}
+  - {fileID: 1065823480}
+  - {fileID: 1065823477}
   - {fileID: 1065823424}
 --- !u!114 &1065823409
 MonoBehaviour:
@@ -6516,6 +6577,7 @@ MonoBehaviour:
   - {fileID: 1065823406}
   - {fileID: 1065823427}
   - {fileID: 1065823461}
+  - {fileID: 1065823479}
   - {fileID: 1065823460}
   - {fileID: 1065823426}
 --- !u!114 &1065823410
@@ -6674,7 +6736,7 @@ MonoBehaviour:
   storyText: Hmmm, not bad, though it's not {i}quite{/i} what I had in mind...
   description: 
   character: {fileID: 58142487}
-  portrait: {fileID: 0}
+  portrait: {fileID: 21300000, guid: d139bc33633330e44ad0891f4be8cb5d, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -7462,7 +7524,7 @@ MonoBehaviour:
   storyText: Yes, that would be perfect!
   description: 
   character: {fileID: 58142487}
-  portrait: {fileID: 0}
+  portrait: {fileID: 21300000, guid: e1949ae3e205999479eba3aada6634dd, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -7541,7 +7603,7 @@ MonoBehaviour:
   storyText: I suppose so...
   description: 
   character: {fileID: 58142487}
-  portrait: {fileID: 0}
+  portrait: {fileID: 21300000, guid: 8d6f0358e3dc491439c79c868a82f33a, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -7592,7 +7654,7 @@ MonoBehaviour:
   storyText: I don't really have any problems with my image, Doc.
   description: 
   character: {fileID: 58142487}
-  portrait: {fileID: 0}
+  portrait: {fileID: 21300000, guid: ea1c2aeea03e7bc40887b7d51729736c, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -7718,8 +7780,7 @@ MonoBehaviour:
   itemId: 112
   errorMessage: 
   indentLevel: 0
-  storyText: We're all done! Just talk to the receptionist on your way out and she'll
-    set an appointment for you to come back in and remove the bandages in a few weeks.
+  storyText: We're all done!
   description: 
   character: {fileID: 1993641214}
   portrait: {fileID: 21300000, guid: 8c4c45c8db874194fa8fa87c5b140659, type: 3}
@@ -7802,7 +7863,7 @@ MonoBehaviour:
     it. You do great work!
   description: 
   character: {fileID: 58142487}
-  portrait: {fileID: 0}
+  portrait: {fileID: 21300000, guid: 491de566ed5382643b6087fc063d96b0, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -7855,7 +7916,7 @@ MonoBehaviour:
   storyText: '...'
   description: 
   character: {fileID: 58142487}
-  portrait: {fileID: 0}
+  portrait: {fileID: 21300000, guid: 422332e786311784197f755292fd7f60, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -7958,7 +8019,7 @@ MonoBehaviour:
   storyText: Thanks!
   description: 
   character: {fileID: 58142487}
-  portrait: {fileID: 0}
+  portrait: {fileID: 21300000, guid: 7c6b2c6699536e640bd012b3326f6802, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -8008,7 +8069,7 @@ MonoBehaviour:
   storyText: All right, if you say so, Doc.
   description: 
   character: {fileID: 58142487}
-  portrait: {fileID: 0}
+  portrait: {fileID: 21300000, guid: 7c6b2c6699536e640bd012b3326f6802, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -8032,6 +8093,184 @@ MonoBehaviour:
   indentLevel: 0
   storyText: You know what, I'd rather not perform any procedures that people aren't
     sure about.
+  description: 
+  character: {fileID: 1993641214}
+  portrait: {fileID: 21300000, guid: 8c4c45c8db874194fa8fa87c5b140659, type: 3}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  setSayDialog: {fileID: 0}
+--- !u!114 &1065823475
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1065823351}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 133
+  errorMessage: 
+  indentLevel: 0
+  storyText: Okay, thanks.
+  description: 
+  character: {fileID: 58142487}
+  portrait: {fileID: 21300000, guid: 86dcec4a1a7ac1048b118a66e75d09ad, type: 3}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  setSayDialog: {fileID: 0}
+--- !u!114 &1065823476
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1065823351}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 138
+  errorMessage: 
+  indentLevel: 0
+  storyText: Just talk to the receptionist on your way out and she'll set an appointment
+    for you to come back in and remove the bandages in a few weeks.
+  description: 
+  character: {fileID: 1993641214}
+  portrait: {fileID: 21300000, guid: 8c4c45c8db874194fa8fa87c5b140659, type: 3}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  setSayDialog: {fileID: 0}
+--- !u!114 &1065823477
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1065823351}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 131
+  errorMessage: 
+  indentLevel: 0
+  storyText: Okay, thanks.
+  description: 
+  character: {fileID: 58142487}
+  portrait: {fileID: 21300000, guid: 86dcec4a1a7ac1048b118a66e75d09ad, type: 3}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  setSayDialog: {fileID: 0}
+--- !u!114 &1065823478
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1065823351}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 137
+  errorMessage: 
+  indentLevel: 0
+  storyText: We're all done!
+  description: 
+  character: {fileID: 1993641214}
+  portrait: {fileID: 21300000, guid: 8c4c45c8db874194fa8fa87c5b140659, type: 3}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  setSayDialog: {fileID: 0}
+--- !u!114 &1065823479
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1065823351}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 134
+  errorMessage: 
+  indentLevel: 0
+  storyText: Just talk to the receptionist on your way out and she'll set an appointment
+    for you to come back in and remove the bandages in a few weeks.
+  description: 
+  character: {fileID: 1993641214}
+  portrait: {fileID: 21300000, guid: 8c4c45c8db874194fa8fa87c5b140659, type: 3}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  setSayDialog: {fileID: 0}
+--- !u!114 &1065823480
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1065823351}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 136
+  errorMessage: 
+  indentLevel: 0
+  storyText: Just talk to the receptionist on your way out and she'll set an appointment
+    for you to come back in and remove the bandages in a few weeks.
+  description: 
+  character: {fileID: 1993641214}
+  portrait: {fileID: 21300000, guid: 8c4c45c8db874194fa8fa87c5b140659, type: 3}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  setSayDialog: {fileID: 0}
+--- !u!114 &1065823481
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1065823351}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 135
+  errorMessage: 
+  indentLevel: 0
+  storyText: We're all done!
   description: 
   character: {fileID: 1993641214}
   portrait: {fileID: 21300000, guid: 8c4c45c8db874194fa8fa87c5b140659, type: 3}
@@ -8174,7 +8413,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 1
+  m_RootOrder: 2
 --- !u!1 &1468328226
 GameObject:
   m_ObjectHideFlags: 0
@@ -8206,7 +8445,7 @@ Transform:
   - {fileID: 284533268}
   - {fileID: 3311939}
   m_Father: {fileID: 0}
-  m_RootOrder: 5
+  m_RootOrder: 6
 --- !u!1 &1486166738
 GameObject:
   m_ObjectHideFlags: 0
@@ -8578,7 +8817,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 7
+  m_RootOrder: 8
 --- !u!1 &1770184561
 GameObject:
   m_ObjectHideFlags: 0
@@ -8757,7 +8996,7 @@ Transform:
   - {fileID: 58142486}
   - {fileID: 1770184562}
   m_Father: {fileID: 0}
-  m_RootOrder: 4
+  m_RootOrder: 5
 --- !u!1 &1942107433
 GameObject:
   m_ObjectHideFlags: 0

@@ -1,0 +1,438 @@
+#SAY.EndFlowchart.1.
+Your score is {$Score} points.
+
+#MENU.IrisFlowchart.5
+Use a friendly approach
+
+#MENU.IrisFlowchart.6
+Use the direct approach
+
+#SAY.IrisFlowchart.7.Dr. Acute
+Welcome to the Acute Triangle Clinic. I'm Dr Acute.
+
+#SAY.IrisFlowchart.34.Dr. Acute
+Why don't you take a moment to tell me a little bit about yourself so we can get to know each other a little better?
+
+#SAY.IrisFlowchart.8.Iris
+Well, hello, Doctor. Nice to meet you! I'm Owen Obtuse.
+
+#SAY.IrisFlowchart.47.Iris
+You know, Owen Obtuse, star rugby player?
+
+#SAY.IrisFlowchart.48.Iris
+Oh, well. Anyway, my triangle is a little off-center and it's starting to bother me. Can you fix it, Doc?
+
+#MENU.IrisFlowchart.9
+Respond encouragingly
+
+#MENU.IrisFlowchart.10
+Respond with concern
+
+#SAY.IrisFlowchart.11.Dr. Acute
+Hi, I'm Dr Acute. How can I help you today?
+
+#SAY.IrisFlowchart.12.Iris
+It's my triangle! After getting busted up a few too many times, it's just not in the right spot any more!
+
+#MENU.IrisFlowchart.41
+Respond encouragingly
+
+#MENU.IrisFlowchart.42
+Respond with concern
+
+#SAY.IrisFlowchart.17.Dr. Acute
+Yeah, I'm sure we can get you back to new in no time! Or maybe better than new!
+
+#SAY.IrisFlowchart.49.Dr. Acute
+Now, let's go over your options, if that's okay with you, Owen?
+
+#SAY.IrisFlowchart.18.Iris
+Absolutely.
+
+#MENU.IrisFlowchart.21
+Get right down to business
+
+#MENU.IrisFlowchart.22
+Respond with caution
+
+#SAY.IrisFlowchart.24.Dr. Acute
+Hmmm, you do seem to have done quite a number on yourself.
+
+#SAY.IrisFlowchart.25.Iris
+
+
+#MENU.IrisFlowchart.43
+Get right down to business
+
+#MENU.IrisFlowchart.44
+Respond with caution
+
+#SAY.IrisFlowchart.29.Dr. Acute
+Okay, here are your options, as I see it.
+
+#SAY.IrisFlowchart.35.Dr. Acute
+We've got this very dramatic shape here, then this slightly less dramatic one.
+
+#SAY.IrisFlowchart.36.Dr. Acute
+We also have this very practical but still pretty option. What do you think?
+
+#SAY.IrisFlowchart.30.Iris
+I'd like the MOST dramatic shape you can create! Go big or go home, right?!
+
+#SAY.IrisFlowchart.32.Dr. Acute
+Well, we have a few options. Here's this moderately dramatic shape, you see, and then there's this one.
+
+#SAY.IrisFlowchart.37.Dr. Acute
+It's not quite as bold a shift but I think you'll find it's very becoming.
+
+#SAY.IrisFlowchart.38.Dr. Acute
+And of course you can change your mind at any point before we start.
+
+#SAY.IrisFlowchart.33.Iris
+No, there's no going back. Is that really all you've got? I was hoping for something a {b}bit{/b} more impressive...
+
+#MENU.MainFlowchart.10
+See Viola Vertex
+
+#MENU.MainFlowchart.5
+See Owen Obtuse
+
+#MENU.MainFlowchart.6
+See Iris Isosceles
+
+#MENU.MainFlowchart.12
+Done seeing clients for today
+
+#MENU.ViolaFlowchart.5
+Use a friendly approach
+
+#MENU.ViolaFlowchart.6
+Use the direct approach
+
+#SAY.ViolaFlowchart.7.Dr. Acute
+Hello, and welcome to the Acute Triangle Clinic. I'm Dr Acute.
+
+#SAY.ViolaFlowchart.34.Dr. Acute
+Why don't we take a moment to get to know each other - would you like to tell me a little bit about yourself?
+
+#SAY.ViolaFlowchart.8.Viola
+I'm not really here for chitchat, doctor. I would like a new triangle, something MUCH more dramatic than what I've got now.
+
+#MENU.ViolaFlowchart.9
+Respond encouragingly
+
+#MENU.ViolaFlowchart.10
+Respond with concern
+
+#SAY.ViolaFlowchart.11.Dr. Acute
+Hi, I'm Dr Acute. What brings you here today?
+
+#SAY.ViolaFlowchart.12.Viola
+I'm ready for a new triangle, I'm bored with the shape I've got.
+
+#MENU.ViolaFlowchart.41
+Respond encouragingly
+
+#MENU.ViolaFlowchart.42
+Respond with concern
+
+#SAY.ViolaFlowchart.17.Dr. Acute
+Okay, I'm sure we can arrange that. Would you like to discuss some options?
+
+#SAY.ViolaFlowchart.18.Viola
+Yes, please.
+
+#MENU.ViolaFlowchart.21
+Get right down to business
+
+#MENU.ViolaFlowchart.22
+Respond with caution
+
+#SAY.ViolaFlowchart.24.Dr. Acute
+Are you sure? I have a lot of clients who would be VERY happy to have a triangle like yours.
+
+#SAY.ViolaFlowchart.25.Viola
+Of course I'm sure! I wouldn't be here if I wasn't, Doctor.
+
+#MENU.ViolaFlowchart.43
+Get right down to business
+
+#MENU.ViolaFlowchart.44
+Respond with caution
+
+#SAY.ViolaFlowchart.29.Dr. Acute
+Okay, here are your options, as I see it.
+
+#SAY.ViolaFlowchart.35.Dr. Acute
+We've got this very dramatic shape here, then this slightly less dramatic one.
+
+#SAY.ViolaFlowchart.36.Dr. Acute
+We also have this very practical but still pretty option. What do you think?
+
+#SAY.ViolaFlowchart.30.Viola
+I'd like the MOST dramatic shape you can create! Go big or go home, right?!
+
+#SAY.ViolaFlowchart.32.Dr. Acute
+Well, we have a few options. Here's this moderately dramatic shape, you see, and then there's this one.
+
+#SAY.ViolaFlowchart.37.Dr. Acute
+It's not quite as bold a shift but I think you'll find it's very becoming.
+
+#SAY.ViolaFlowchart.38.Dr. Acute
+And of course you can change your mind at any point before we start.
+
+#SAY.ViolaFlowchart.33.Viola
+No, there's no going back. Is that really all you've got? I was hoping for something a {b}bit{/b} more impressive...
+
+#MENU.OwenFlowchart.5
+Use a friendly approach
+
+#MENU.OwenFlowchart.6
+Use the direct approach
+
+#SAY.OwenFlowchart.7.Dr. Acute
+Welcome to the Acute Triangle Clinic. I'm Dr Acute.
+
+#SAY.OwenFlowchart.34.Dr. Acute
+Why don't you take a moment to tell me a little bit about yourself so we can get to know each other a little better?
+
+#SAY.OwenFlowchart.8.Owen
+Well, hello, Doctor. Nice to meet you! I'm Owen Obtuse.
+
+#SAY.OwenFlowchart.46.
+{i}Owen pauses expectantly.{/i}
+
+#SAY.OwenFlowchart.47.Owen
+You know, Owen Obtuse, star rugby player?
+
+#SAY.OwenFlowchart.54.Dr. Acute
+I'm sorry, I don't really follow sports very closely.
+
+#SAY.OwenFlowchart.53.Owen
+...
+
+#SAY.OwenFlowchart.48.Owen
+Oh, well. Anyway, my triangle is a little off-center and it's starting to bother me. Can you fix it, Doc?
+
+#MENU.OwenFlowchart.9
+Respond encouragingly
+
+#MENU.OwenFlowchart.10
+Respond with concern
+
+#SAY.OwenFlowchart.11.Dr. Acute
+Hi, I'm Dr Acute. How can I help you today?
+
+#SAY.OwenFlowchart.12.Owen
+It's my triangle! After getting busted up a few too many times, it's just not in the right spot any more!
+
+#MENU.OwenFlowchart.41
+Respond encouragingly
+
+#MENU.OwenFlowchart.42
+Respond with concern
+
+#SAY.OwenFlowchart.17.Dr. Acute
+Yeah, I'm sure we can get you back to new in no time! Or maybe better than new!
+
+#SAY.OwenFlowchart.49.Dr. Acute
+Now, let's go over your options, if that's okay with you, Owen?
+
+#SAY.OwenFlowchart.18.Owen
+Absolutely.
+
+#MENU.OwenFlowchart.21
+Get right down to business
+
+#MENU.OwenFlowchart.22
+Respond with caution
+
+#SAY.OwenFlowchart.24.Dr. Acute
+Hmmm, you do seem to have done quite a number on yourself. Shall we discuss options.
+
+#SAY.OwenFlowchart.25.Owen
+Yeah...
+
+#MENU.OwenFlowchart.43
+Get right down to business
+
+#MENU.OwenFlowchart.44
+Respond with caution
+
+#SAY.OwenFlowchart.29.Dr. Acute
+You know what we could do?
+
+#SAY.OwenFlowchart.35.Dr. Acute
+This could be a great opportunity to reconsider your triangle. We could give you a whole new face with one dramatic shift!
+
+#SAY.OwenFlowchart.36.Dr. Acute
+Of course we can just recenter it on your face if you'd like, but if you're going for surgery anyway, why not go for broke?
+
+#SAY.OwenFlowchart.30.Owen
+I don't know about that, doc...
+
+#MENU.OwenFlowchart.66
+Persist with more expensive options
+
+#MENU.OwenFlowchart.67
+Agree to compromise
+
+#MENU.OwenFlowchart.68
+Comply with Owen's wishes
+
+#MENU.OwenFlowchart.69
+Suggest that surgery is unnecessary
+
+#SAY.OwenFlowchart.32.Dr. Acute
+Well, we have a few options. We can just shift it back to the center, but we can also do a bit more work while we're at it, if you're interested.
+
+#SAY.OwenFlowchart.38.Dr. Acute
+It's really not so terrible as is, either, so you let me know if you reconsider.
+
+#SAY.OwenFlowchart.33.Owen
+It just doesn't look like my face right now. I'm not happy with it, but I'm not interested in really changing it.
+
+#SAY.OwenFlowchart.110.Owen
+I'd really just like it back where it was, in the middle of my face like a good triangle.
+
+#MENU.OwenFlowchart.71
+Push for more expensive options
+
+#MENU.OwenFlowchart.72
+Agree to compromise
+
+#MENU.OwenFlowchart.73
+Comply with Owen's wishes
+
+#MENU.OwenFlowchart.74
+Suggest that surgery is unnecessary
+
+#SAY.OwenFlowchart.116.Dr. Acute
+Welcome back! All ready for the bandages to come off?
+
+#SAY.OwenFlowchart.117.Owen
+Yes, I am, Doc.
+
+#SAY.OwenFlowchart.118.Dr. Acute
+Okay, I'm removing them now. No peeking! You can look in a second.
+
+#SAY.OwenFlowchart.123.Owen
+...
+
+#SAY.OwenFlowchart.124.Owen
+Yes, this looks like my face again. Thanks, Doc, I really appreciate it. You do great work!
+
+#SAY.OwenFlowchart.125.Owen
+Hmmm, not bad, though it's not {i}quite{/i} what I had in mind...
+
+#SAY.OwenFlowchart.97.Dr. Acute
+I think a completely fresh new triangle would do wonders for your face! It would be a big boost to your image.
+
+#SAY.OwenFlowchart.99.Owen
+I don't really have any problems with my image, Doc.
+
+#MENU.OwenFlowchart.75
+Give Owen the most expensive procedure
+
+#MENU.OwenFlowchart.76
+Give Owen a moderate procedure
+
+#MENU.OwenFlowchart.77
+Give Owen a small adjustment
+
+#MENU.OwenFlowchart.78
+Don't perform surgery after all
+
+#SAY.OwenFlowchart.100.Dr. Acute
+Of course, we don't have to go {i}quite</i} as extreme as all that. But a few changes while we're adjusting you wouldn't hurt at all!
+
+#SAY.OwenFlowchart.101.Owen
+I suppose so...
+
+#MENU.OwenFlowchart.79
+Give Owen the most expensive procedure
+
+#MENU.OwenFlowchart.80
+Give Owen a moderate procedure
+
+#MENU.OwenFlowchart.81
+Give Owen a small adjustment
+
+#MENU.OwenFlowchart.82
+Don't perform surgery after all
+
+#SAY.OwenFlowchart.126.Dr. Acute
+You know what, I'd rather not perform any procedures that people aren't sure about.
+
+#SAY.OwenFlowchart.127.Owen
+All right, if you say so, Doc.
+
+#SAY.OwenFlowchart.128.Dr. Acute
+Thanks for coming in, Owen. Good luck in your next match!
+
+#SAY.OwenFlowchart.129.Owen
+Thanks!
+
+#SAY.OwenFlowchart.103.Dr. Acute
+Of course we can just shift it back without making any other changes, if that's what you'd prefer?
+
+#SAY.OwenFlowchart.104.Owen
+Yes, that would be perfect!
+
+#MENU.OwenFlowchart.83
+Give Owen the most expensive procedure
+
+#MENU.OwenFlowchart.84
+Give Owen a moderate procedure
+
+#MENU.OwenFlowchart.85
+Give Owen a small adjustment
+
+#MENU.OwenFlowchart.86
+Don't perform surgery after all
+
+#SAY.OwenFlowchart.112.Dr. Acute
+We're all done! Just talk to the receptionist on your way out and she'll set an appointment for you to come back in and remove the bandages in a few weeks.
+
+#SAY.OwenFlowchart.113.Owen
+Okay, thanks.
+
+#MENU.OwenFlowchart.93
+Remove the bandages
+
+#MENU.OwenFlowchart.94
+Remove the bandages
+
+#MENU.OwenFlowchart.95
+Remove the bandages
+
+#SAY.OwenFlowchart.106.Dr. Acute
+Are you sure you want to go through with the surgery?
+
+#SAY.OwenFlowchart.111.Owen
+Well... Hmmm...
+
+#MENU.OwenFlowchart.87
+Give Owen the most expensive procedure
+
+#MENU.OwenFlowchart.88
+Give Owen a moderate procedure
+
+#MENU.OwenFlowchart.89
+Give Owen a small adjustment
+
+#MENU.OwenFlowchart.90
+Don't perform surgery after all
+
+#CHARACTER.Owen
+Owen
+
+#CHARACTER.Iris
+Iris
+
+#CHARACTER.Viola
+Viola
+
+#CHARACTER.Dr. Acute
+Dr. Acute
+
