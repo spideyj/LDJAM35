@@ -100,6 +100,30 @@ GameObject:
   - 114: {fileID: 3311946}
   - 114: {fileID: 3311945}
   - 114: {fileID: 3311944}
+  - 114: {fileID: 3311967}
+  - 114: {fileID: 3311966}
+  - 114: {fileID: 3311965}
+  - 114: {fileID: 3311964}
+  - 114: {fileID: 3311963}
+  - 114: {fileID: 3311962}
+  - 114: {fileID: 3311947}
+  - 114: {fileID: 3311970}
+  - 114: {fileID: 3311969}
+  - 114: {fileID: 3311968}
+  - 114: {fileID: 3311961}
+  - 114: {fileID: 3311960}
+  - 114: {fileID: 3311959}
+  - 114: {fileID: 3311958}
+  - 114: {fileID: 3311957}
+  - 114: {fileID: 3311956}
+  - 114: {fileID: 3311955}
+  - 114: {fileID: 3311954}
+  - 114: {fileID: 3311953}
+  - 114: {fileID: 3311952}
+  - 114: {fileID: 3311951}
+  - 114: {fileID: 3311950}
+  - 114: {fileID: 3311949}
+  - 114: {fileID: 3311948}
   m_Layer: 0
   m_Name: EndFlowchart
   m_TagString: Untagged
@@ -147,8 +171,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 143
-    y: 68
+    x: 142
+    y: 65
     width: 120
     height: 40
   itemId: 0
@@ -156,9 +180,32 @@ MonoBehaviour:
   description: 
   eventHandler: {fileID: 0}
   commandList:
+  - {fileID: 3311948}
   - {fileID: 3311946}
   - {fileID: 3311945}
   - {fileID: 3311944}
+  - {fileID: 3311970}
+  - {fileID: 3311969}
+  - {fileID: 3311968}
+  - {fileID: 3311967}
+  - {fileID: 3311966}
+  - {fileID: 3311965}
+  - {fileID: 3311964}
+  - {fileID: 3311963}
+  - {fileID: 3311962}
+  - {fileID: 3311961}
+  - {fileID: 3311960}
+  - {fileID: 3311959}
+  - {fileID: 3311958}
+  - {fileID: 3311957}
+  - {fileID: 3311956}
+  - {fileID: 3311955}
+  - {fileID: 3311954}
+  - {fileID: 3311953}
+  - {fileID: 3311952}
+  - {fileID: 3311951}
+  - {fileID: 3311950}
+  - {fileID: 3311949}
   - {fileID: 3311943}
 --- !u!114 &3311942
 MonoBehaviour:
@@ -186,9 +233,10 @@ MonoBehaviour:
     height: 859
   selectedBlock: {fileID: 3311941}
   selectedCommands:
-  - {fileID: 3311943}
+  - {fileID: 3311948}
   variables:
   - {fileID: 3311940}
+  - {fileID: 3311947}
   description: 
   stepPause: 0
   colorCommands: 1
@@ -210,7 +258,9 @@ MonoBehaviour:
   itemId: 1
   errorMessage: 
   indentLevel: 0
-  storyText: Your score is {$Score} points.
+  storyText: 'Your happiness score is {$Score} points.
+
+    Your profits for today were ${$Profit}.'
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -223,7 +273,7 @@ MonoBehaviour:
   setSayDialog: {fileID: 0}
 --- !u!114 &3311944
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 3311938}
@@ -251,7 +301,7 @@ MonoBehaviour:
     stringVal: 
 --- !u!114 &3311945
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 3311938}
@@ -279,7 +329,7 @@ MonoBehaviour:
     stringVal: 
 --- !u!114 &3311946
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 3311938}
@@ -298,6 +348,584 @@ MonoBehaviour:
     booleanVal: 0
   integerData:
     integerRef: {fileID: 284533217}
+    integerVal: 0
+  floatData:
+    floatRef: {fileID: 0}
+    floatVal: 0
+  stringData:
+    stringRef: {fileID: 0}
+    stringVal: 
+--- !u!114 &3311947
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 3311938}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: afb91b566ceda411bad1e9d3c3243ecc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  scope: 1
+  key: Profit
+  value: 0
+--- !u!114 &3311948
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 3311938}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 437f9a4e3dbc647f9bdce95308418bff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 27
+  errorMessage: 
+  indentLevel: 0
+  duration: 1
+  fadeOut: 1
+  targetView: {fileID: 2010427133}
+  waitUntilFinished: 1
+  fadeColor: {r: 0.96470594, g: 0.8588236, b: 0.8235295, a: 1}
+  fadeTexture: {fileID: 0}
+  targetCamera: {fileID: 0}
+--- !u!114 &3311949
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 3311938}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3315ad2ebb85443909a1203d56d9344e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 26
+  errorMessage: 
+  indentLevel: 0
+  duration: 1
+--- !u!114 &3311950
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 3311938}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 25
+  errorMessage: 
+  indentLevel: 0
+  storyText: You received {$IrisJoy} happiness points and ${$IrisProfit} for your
+    treatment of Viola.
+  description: 
+  character: {fileID: 0}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  setSayDialog: {fileID: 0}
+--- !u!114 &3311951
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 3311938}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 93cb9773f2ca04e2bbf7a68ccfc23267, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 24
+  errorMessage: 
+  indentLevel: 0
+--- !u!114 &3311952
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 3311938}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 23
+  errorMessage: 
+  indentLevel: 1
+  storyText: You really upset Iris and she left the clinic with a LOT more work than
+    she wanted or needed. Good job looking at the bottom line! Not so good job listening
+    to your patients, though...
+  description: 
+  character: {fileID: 0}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  setSayDialog: {fileID: 0}
+--- !u!114 &3311953
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 3311938}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 18c5e8d46183346b59f64b820e71f97f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 22
+  errorMessage: 
+  indentLevel: 0
+  compareOperator: 0
+  variable: {fileID: 284533278}
+  booleanData:
+    booleanRef: {fileID: 0}
+    booleanVal: 1
+  integerData:
+    integerRef: {fileID: 0}
+    integerVal: 0
+  floatData:
+    floatRef: {fileID: 0}
+    floatVal: 0
+  stringData:
+    stringRef: {fileID: 0}
+    stringVal: 
+--- !u!114 &3311954
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 3311938}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 21
+  errorMessage: 
+  indentLevel: 1
+  storyText: You made Iris very happy and she walked out of your clinic thinking of
+    vacation plans. That was very altruistic of you!
+  description: 
+  character: {fileID: 0}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  setSayDialog: {fileID: 0}
+--- !u!114 &3311955
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 3311938}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 70c5622b8a80845c980954170295f292, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 20
+  errorMessage: 
+  indentLevel: 0
+  compareOperator: 0
+  variable: {fileID: 284533277}
+  booleanData:
+    booleanRef: {fileID: 0}
+    booleanVal: 1
+  integerData:
+    integerRef: {fileID: 0}
+    integerVal: 0
+  floatData:
+    floatRef: {fileID: 0}
+    floatVal: 0
+  stringData:
+    stringRef: {fileID: 0}
+    stringVal: 
+--- !u!114 &3311956
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 3311938}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 19
+  errorMessage: 
+  indentLevel: 0
+  storyText: You received {$OwenJoy} happiness points and ${$OwenProfit} for your
+    treatment of Owen.
+  description: 
+  character: {fileID: 0}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  setSayDialog: {fileID: 0}
+--- !u!114 &3311957
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 3311938}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 93cb9773f2ca04e2bbf7a68ccfc23267, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 18
+  errorMessage: 
+  indentLevel: 0
+--- !u!114 &3311958
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 3311938}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 17
+  errorMessage: 
+  indentLevel: 1
+  storyText: You gave Owen a procedure he didn't want but at least you made a lot
+    of money off of him. Good job living up to the stereotype of the greedy plastic
+    surgeon!
+  description: 
+  character: {fileID: 0}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  setSayDialog: {fileID: 0}
+--- !u!114 &3311959
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 3311938}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 18c5e8d46183346b59f64b820e71f97f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 16
+  errorMessage: 
+  indentLevel: 0
+  compareOperator: 0
+  variable: {fileID: 1065823415}
+  booleanData:
+    booleanRef: {fileID: 0}
+    booleanVal: 1
+  integerData:
+    integerRef: {fileID: 0}
+    integerVal: 0
+  floatData:
+    floatRef: {fileID: 0}
+    floatVal: 0
+  stringData:
+    stringRef: {fileID: 0}
+    stringVal: 
+--- !u!114 &3311960
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 3311938}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 15
+  errorMessage: 
+  indentLevel: 1
+  storyText: You made Owen very happy and gave him the exact procedure he wanted.
+  description: 
+  character: {fileID: 0}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  setSayDialog: {fileID: 0}
+--- !u!114 &3311961
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 3311938}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 70c5622b8a80845c980954170295f292, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 14
+  errorMessage: 
+  indentLevel: 0
+  compareOperator: 0
+  variable: {fileID: 1065823414}
+  booleanData:
+    booleanRef: {fileID: 0}
+    booleanVal: 1
+  integerData:
+    integerRef: {fileID: 0}
+    integerVal: 0
+  floatData:
+    floatRef: {fileID: 0}
+    floatVal: 0
+  stringData:
+    stringRef: {fileID: 0}
+    stringVal: 
+--- !u!114 &3311962
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 3311938}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 10
+  errorMessage: 
+  indentLevel: 0
+  storyText: You received {$ViolaJoy} happiness points and ${$ViolaProfit} for your
+    treatment of Viola.
+  description: 
+  character: {fileID: 0}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  setSayDialog: {fileID: 0}
+--- !u!114 &3311963
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 3311938}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 93cb9773f2ca04e2bbf7a68ccfc23267, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 9
+  errorMessage: 
+  indentLevel: 0
+--- !u!114 &3311964
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 3311938}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 8
+  errorMessage: 
+  indentLevel: 1
+  storyText: You disappointed Viola and she left the clinic without receiving the
+    procedure she wanted.
+  description: 
+  character: {fileID: 0}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  setSayDialog: {fileID: 0}
+--- !u!114 &3311965
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 3311938}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 18c5e8d46183346b59f64b820e71f97f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 7
+  errorMessage: 
+  indentLevel: 0
+  compareOperator: 0
+  variable: {fileID: 824764213}
+  booleanData:
+    booleanRef: {fileID: 0}
+    booleanVal: 1
+  integerData:
+    integerRef: {fileID: 0}
+    integerVal: 0
+  floatData:
+    floatRef: {fileID: 0}
+    floatVal: 0
+  stringData:
+    stringRef: {fileID: 0}
+    stringVal: 
+--- !u!114 &3311966
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 3311938}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 6
+  errorMessage: 
+  indentLevel: 1
+  storyText: You made Viola very happy and gave her the exact procedure she wanted.
+  description: 
+  character: {fileID: 0}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  setSayDialog: {fileID: 0}
+--- !u!114 &3311967
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 3311938}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 70c5622b8a80845c980954170295f292, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 5
+  errorMessage: 
+  indentLevel: 0
+  compareOperator: 0
+  variable: {fileID: 824764212}
+  booleanData:
+    booleanRef: {fileID: 0}
+    booleanVal: 1
+  integerData:
+    integerRef: {fileID: 0}
+    integerVal: 0
+  floatData:
+    floatRef: {fileID: 0}
+    floatVal: 0
+  stringData:
+    stringRef: {fileID: 0}
+    stringVal: 
+--- !u!114 &3311968
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 3311938}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fb77d0ce495044f6e9feb91b31798e8c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 13
+  errorMessage: 
+  indentLevel: 0
+  variable: {fileID: 3311947}
+  setOperator: 2
+  booleanData:
+    booleanRef: {fileID: 0}
+    booleanVal: 0
+  integerData:
+    integerRef: {fileID: 1065823483}
+    integerVal: 0
+  floatData:
+    floatRef: {fileID: 0}
+    floatVal: 0
+  stringData:
+    stringRef: {fileID: 0}
+    stringVal: 
+--- !u!114 &3311969
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 3311938}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fb77d0ce495044f6e9feb91b31798e8c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 12
+  errorMessage: 
+  indentLevel: 0
+  variable: {fileID: 3311947}
+  setOperator: 2
+  booleanData:
+    booleanRef: {fileID: 0}
+    booleanVal: 0
+  integerData:
+    integerRef: {fileID: 824764214}
+    integerVal: 0
+  floatData:
+    floatRef: {fileID: 0}
+    floatVal: 0
+  stringData:
+    stringRef: {fileID: 0}
+    stringVal: 
+--- !u!114 &3311970
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 3311938}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fb77d0ce495044f6e9feb91b31798e8c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 11
+  errorMessage: 
+  indentLevel: 0
+  variable: {fileID: 3311947}
+  setOperator: 2
+  booleanData:
+    booleanRef: {fileID: 0}
+    booleanVal: 0
+  integerData:
+    integerRef: {fileID: 284533343}
     integerVal: 0
   floatData:
     floatRef: {fileID: 0}
@@ -805,6 +1433,10 @@ GameObject:
   - 114: {fileID: 284533330}
   - 114: {fileID: 284533266}
   - 114: {fileID: 284533331}
+  - 114: {fileID: 284533346}
+  - 114: {fileID: 284533345}
+  - 114: {fileID: 284533344}
+  - 114: {fileID: 284533343}
   m_Layer: 0
   m_Name: IrisFlowchart
   m_TagString: Untagged
@@ -836,14 +1468,15 @@ MonoBehaviour:
     y: -507
     width: 1979
     height: 1167
-  selectedBlock: {fileID: 284533267}
+  selectedBlock: {fileID: 284533276}
   selectedCommands:
-  - {fileID: 284533328}
+  - {fileID: 284533344}
   variables:
   - {fileID: 284533217}
   - {fileID: 284533278}
   - {fileID: 284533277}
   - {fileID: 284533266}
+  - {fileID: 284533343}
   description: 
   stepPause: 0
   colorCommands: 1
@@ -1100,8 +1733,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 651
-    y: 210
+    x: 648
+    y: 211
     width: 120
     height: 40
   itemId: 73
@@ -1163,7 +1796,7 @@ MonoBehaviour:
     booleanVal: 0
   integerData:
     integerRef: {fileID: 0}
-    integerVal: 1
+    integerVal: 100
   floatData:
     floatRef: {fileID: 0}
     floatVal: 0
@@ -1367,7 +2000,7 @@ MonoBehaviour:
     booleanVal: 0
   integerData:
     integerRef: {fileID: 0}
-    integerVal: 1
+    integerVal: 100
   floatData:
     floatRef: {fileID: 0}
     floatVal: 0
@@ -1468,7 +2101,7 @@ MonoBehaviour:
     booleanVal: 0
   integerData:
     integerRef: {fileID: 0}
-    integerVal: 1
+    integerVal: 100
   floatData:
     floatRef: {fileID: 0}
     floatVal: 0
@@ -1694,7 +2327,7 @@ MonoBehaviour:
     booleanVal: 0
   integerData:
     integerRef: {fileID: 0}
-    integerVal: 1
+    integerVal: 100
   floatData:
     floatRef: {fileID: 0}
     floatVal: 0
@@ -2162,6 +2795,7 @@ MonoBehaviour:
   eventHandler: {fileID: 0}
   commandList:
   - {fileID: 284533270}
+  - {fileID: 284533345}
   - {fileID: 284533331}
   - {fileID: 284533316}
   - {fileID: 284533315}
@@ -2188,7 +2822,7 @@ MonoBehaviour:
     booleanVal: 0
   integerData:
     integerRef: {fileID: 0}
-    integerVal: 1
+    integerVal: 100
   floatData:
     floatRef: {fileID: 0}
     floatVal: 0
@@ -2216,7 +2850,7 @@ MonoBehaviour:
     booleanVal: 0
   integerData:
     integerRef: {fileID: 0}
-    integerVal: 3
+    integerVal: 300
   floatData:
     floatRef: {fileID: 0}
     floatVal: 0
@@ -2237,7 +2871,7 @@ MonoBehaviour:
   nodeRect:
     serializedVersion: 2
     x: 821
-    y: -3
+    y: -4
     width: 120
     height: 40
   itemId: 56
@@ -2246,6 +2880,7 @@ MonoBehaviour:
   eventHandler: {fileID: 0}
   commandList:
   - {fileID: 284533271}
+  - {fileID: 284533346}
   - {fileID: 284533321}
   - {fileID: 284533320}
   - {fileID: 284533319}
@@ -2272,7 +2907,7 @@ MonoBehaviour:
     booleanVal: 0
   integerData:
     integerRef: {fileID: 0}
-    integerVal: 3
+    integerVal: 300
   floatData:
     floatRef: {fileID: 0}
     floatVal: 0
@@ -2329,7 +2964,7 @@ MonoBehaviour:
     booleanVal: 0
   integerData:
     integerRef: {fileID: 0}
-    integerVal: 1
+    integerVal: 100
   floatData:
     floatRef: {fileID: 0}
     floatVal: 0
@@ -2359,6 +2994,7 @@ MonoBehaviour:
   eventHandler: {fileID: 0}
   commandList:
   - {fileID: 284533275}
+  - {fileID: 284533344}
   - {fileID: 284533324}
   - {fileID: 284533323}
   - {fileID: 284533322}
@@ -2931,7 +3567,7 @@ MonoBehaviour:
     booleanVal: 0
   integerData:
     integerRef: {fileID: 0}
-    integerVal: 1
+    integerVal: 100
   floatData:
     floatRef: {fileID: 0}
     floatVal: 0
@@ -3051,7 +3687,7 @@ MonoBehaviour:
     booleanVal: 0
   integerData:
     integerRef: {fileID: 0}
-    integerVal: 1
+    integerVal: 100
   floatData:
     floatRef: {fileID: 0}
     floatVal: 0
@@ -3906,6 +4542,104 @@ MonoBehaviour:
   waitUntilFinished: 1
   fadeColor: {r: 0, g: 0, b: 0, a: 1}
   fadeTexture: {fileID: 0}
+--- !u!114 &284533343
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 284533215}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: afb91b566ceda411bad1e9d3c3243ecc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  scope: 1
+  key: IrisProfit
+  value: 0
+--- !u!114 &284533344
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 284533215}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fb77d0ce495044f6e9feb91b31798e8c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 173
+  errorMessage: 
+  indentLevel: 0
+  variable: {fileID: 284533343}
+  setOperator: 2
+  booleanData:
+    booleanRef: {fileID: 0}
+    booleanVal: 0
+  integerData:
+    integerRef: {fileID: 0}
+    integerVal: 500
+  floatData:
+    floatRef: {fileID: 0}
+    floatVal: 0
+  stringData:
+    stringRef: {fileID: 0}
+    stringVal: 
+--- !u!114 &284533345
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 284533215}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fb77d0ce495044f6e9feb91b31798e8c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 172
+  errorMessage: 
+  indentLevel: 0
+  variable: {fileID: 284533343}
+  setOperator: 2
+  booleanData:
+    booleanRef: {fileID: 0}
+    booleanVal: 0
+  integerData:
+    integerRef: {fileID: 0}
+    integerVal: 1000
+  floatData:
+    floatRef: {fileID: 0}
+    floatVal: 0
+  stringData:
+    stringRef: {fileID: 0}
+    stringVal: 
+--- !u!114 &284533346
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 284533215}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fb77d0ce495044f6e9feb91b31798e8c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 171
+  errorMessage: 
+  indentLevel: 0
+  variable: {fileID: 284533343}
+  setOperator: 2
+  booleanData:
+    booleanRef: {fileID: 0}
+    booleanVal: 0
+  integerData:
+    integerRef: {fileID: 0}
+    integerVal: 1500
+  floatData:
+    floatRef: {fileID: 0}
+    floatVal: 0
+  stringData:
+    stringRef: {fileID: 0}
+    stringVal: 
 --- !u!1 &327778788
 GameObject:
   m_ObjectHideFlags: 0
@@ -4661,9 +5395,6 @@ GameObject:
   - 114: {fileID: 677787251}
   - 114: {fileID: 677787262}
   - 114: {fileID: 677787261}
-  - 114: {fileID: 677787265}
-  - 114: {fileID: 677787264}
-  - 114: {fileID: 677787263}
   - 114: {fileID: 677787266}
   - 114: {fileID: 677787268}
   - 114: {fileID: 677787267}
@@ -4673,6 +5404,12 @@ GameObject:
   - 114: {fileID: 677787258}
   - 114: {fileID: 677787270}
   - 114: {fileID: 677787272}
+  - 114: {fileID: 677787277}
+  - 114: {fileID: 677787278}
+  - 114: {fileID: 677787276}
+  - 114: {fileID: 677787275}
+  - 114: {fileID: 677787274}
+  - 114: {fileID: 677787273}
   m_Layer: 0
   m_Name: MainFlowchart
   m_TagString: Untagged
@@ -4911,12 +5648,9 @@ MonoBehaviour:
     y: -371
     width: 1618.936
     height: 1141.8511
-  selectedBlock: {fileID: 677787256}
+  selectedBlock: {fileID: 677787268}
   selectedCommands: []
-  variables:
-  - {fileID: 677787265}
-  - {fileID: 677787264}
-  - {fileID: 677787263}
+  variables: []
   description: 
   stepPause: 0
   colorCommands: 1
@@ -4958,48 +5692,6 @@ MonoBehaviour:
   targetFlowchart: {fileID: 1065823352}
   targetBlock: {fileID: 1065823397}
   callMode: 0
---- !u!114 &677787263
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 677787249}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5d02d9822eec54c98afe95bb497211b3, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  scope: 1
-  key: Iris
-  value: 0
---- !u!114 &677787264
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 677787249}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5d02d9822eec54c98afe95bb497211b3, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  scope: 1
-  key: Owen
-  value: 0
---- !u!114 &677787265
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 677787249}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5d02d9822eec54c98afe95bb497211b3, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  scope: 1
-  key: Viola
-  value: 0
 --- !u!114 &677787266
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -5080,7 +5772,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: -96.80847
+    x: -98.93613
     y: 62.765976
     width: 120
     height: 40
@@ -5091,6 +5783,12 @@ MonoBehaviour:
   commandList:
   - {fileID: 677787258}
   - {fileID: 677787272}
+  - {fileID: 677787278}
+  - {fileID: 677787277}
+  - {fileID: 677787276}
+  - {fileID: 677787275}
+  - {fileID: 677787274}
+  - {fileID: 677787273}
   - {fileID: 677787270}
 --- !u!114 &677787270
 MonoBehaviour:
@@ -5138,6 +5836,155 @@ MonoBehaviour:
   duration: 1
   fadeOut: 1
   targetView: {fileID: 2010427133}
+  waitUntilFinished: 1
+  fadeColor: {r: 0.96470594, g: 0.8588236, b: 0.8235295, a: 1}
+  fadeTexture: {fileID: 0}
+  targetCamera: {fileID: 0}
+--- !u!114 &677787273
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 677787249}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 58
+  errorMessage: 
+  indentLevel: 0
+  storyText: '{i}...but I do need to pay off those loans somehow.{/i}'
+  description: 
+  character: {fileID: 1993641214}
+  portrait: {fileID: 21300000, guid: e863dd84496d00f418f1b06fbf859865, type: 3}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  setSayDialog: {fileID: 0}
+--- !u!114 &677787274
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 677787249}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 57
+  errorMessage: 
+  indentLevel: 0
+  storyText: When I talk to potential clients, I try to help them decide on whatever
+    will make them happiest...
+  description: 
+  character: {fileID: 1993641214}
+  portrait: {fileID: 21300000, guid: e863dd84496d00f418f1b06fbf859865, type: 3}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  setSayDialog: {fileID: 0}
+--- !u!114 &677787275
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 677787249}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 56
+  errorMessage: 
+  indentLevel: 0
+  storyText: My receptionist tells me that I have three clients here in the office
+    today for consults. Let's go see them, shall we?
+  description: 
+  character: {fileID: 1993641214}
+  portrait: {fileID: 21300000, guid: e863dd84496d00f418f1b06fbf859865, type: 3}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  setSayDialog: {fileID: 0}
+--- !u!114 &677787276
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 677787249}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 55
+  errorMessage: 
+  indentLevel: 0
+  storyText: (Med school is {b}not{/b} cheap)
+  description: 
+  character: {fileID: 1993641214}
+  portrait: {fileID: 21300000, guid: e863dd84496d00f418f1b06fbf859865, type: 3}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  setSayDialog: {fileID: 0}
+--- !u!114 &677787277
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 677787249}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 19
+  errorMessage: 
+  indentLevel: 0
+  storyText: Another day at the Acute Aesthetic Medicine Clinic. I love my job! I
+    get to make people feel good and pay off my student loans at the same time!
+  description: 
+  character: {fileID: 1993641214}
+  portrait: {fileID: 21300000, guid: e863dd84496d00f418f1b06fbf859865, type: 3}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  setSayDialog: {fileID: 0}
+--- !u!114 &677787278
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 677787249}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 437f9a4e3dbc647f9bdce95308418bff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 54
+  errorMessage: 
+  indentLevel: 0
+  duration: 3
+  fadeOut: 0
+  targetView: {fileID: 1451842690}
   waitUntilFinished: 1
   fadeColor: {r: 0.96470594, g: 0.8588236, b: 0.8235295, a: 1}
   fadeTexture: {fileID: 0}
@@ -5362,7 +6209,6 @@ GameObject:
   - 114: {fileID: 824764204}
   - 114: {fileID: 824764213}
   - 114: {fileID: 824764212}
-  - 114: {fileID: 824764214}
   - 114: {fileID: 824764222}
   - 114: {fileID: 824764218}
   - 114: {fileID: 824764256}
@@ -5432,6 +6278,10 @@ GameObject:
   - 114: {fileID: 824764202}
   - 114: {fileID: 824764272}
   - 114: {fileID: 824764271}
+  - 114: {fileID: 824764285}
+  - 114: {fileID: 824764284}
+  - 114: {fileID: 824764283}
+  - 114: {fileID: 824764214}
   m_Layer: 0
   m_Name: ViolaFlowchart
   m_TagString: Untagged
@@ -5463,13 +6313,14 @@ MonoBehaviour:
     y: -534
     width: 1924
     height: 1231
-  selectedBlock: {fileID: 824764203}
+  selectedBlock: {fileID: 824764207}
   selectedCommands:
-  - {fileID: 824764202}
+  - {fileID: 824764283}
   variables:
   - {fileID: 824764161}
   - {fileID: 824764213}
   - {fileID: 824764212}
+  - {fileID: 824764214}
   description: 
   stepPause: 0
   colorCommands: 1
@@ -5563,7 +6414,6 @@ MonoBehaviour:
   description: 
   eventHandler: {fileID: 0}
   commandList:
-  - {fileID: 824764214}
   - {fileID: 824764165}
   - {fileID: 824764162}
 --- !u!114 &824764165
@@ -5884,7 +6734,7 @@ MonoBehaviour:
     booleanVal: 0
   integerData:
     integerRef: {fileID: 0}
-    integerVal: 1
+    integerVal: 100
   floatData:
     floatRef: {fileID: 0}
     floatVal: 0
@@ -5912,7 +6762,7 @@ MonoBehaviour:
     booleanVal: 0
   integerData:
     integerRef: {fileID: 0}
-    integerVal: 1
+    integerVal: 100
   floatData:
     floatRef: {fileID: 0}
     floatVal: 0
@@ -6224,7 +7074,7 @@ MonoBehaviour:
     booleanVal: 0
   integerData:
     integerRef: {fileID: 0}
-    integerVal: 1
+    integerVal: 100
   floatData:
     floatRef: {fileID: 0}
     floatVal: 0
@@ -6302,7 +7152,7 @@ MonoBehaviour:
     booleanVal: 0
   integerData:
     integerRef: {fileID: 0}
-    integerVal: 1
+    integerVal: 100
   floatData:
     floatRef: {fileID: 0}
     floatVal: 0
@@ -6382,7 +7232,7 @@ MonoBehaviour:
     booleanVal: 0
   integerData:
     integerRef: {fileID: 0}
-    integerVal: 1
+    integerVal: 100
   floatData:
     floatRef: {fileID: 0}
     floatVal: 0
@@ -6573,7 +7423,7 @@ MonoBehaviour:
     booleanVal: 0
   integerData:
     integerRef: {fileID: 0}
-    integerVal: 3
+    integerVal: 300
   floatData:
     floatRef: {fileID: 0}
     floatVal: 0
@@ -6627,7 +7477,7 @@ MonoBehaviour:
     booleanVal: 0
   integerData:
     integerRef: {fileID: 0}
-    integerVal: 1
+    integerVal: 100
   floatData:
     floatRef: {fileID: 0}
     floatVal: 0
@@ -6647,8 +7497,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 831
-    y: 168
+    x: 829
+    y: 170
     width: 120
     height: 40
   itemId: 49
@@ -6657,6 +7507,7 @@ MonoBehaviour:
   eventHandler: {fileID: 0}
   commandList:
   - {fileID: 824764206}
+  - {fileID: 824764283}
   - {fileID: 824764261}
   - {fileID: 824764260}
   - {fileID: 824764259}
@@ -6682,7 +7533,7 @@ MonoBehaviour:
     booleanVal: 0
   integerData:
     integerRef: {fileID: 0}
-    integerVal: 1
+    integerVal: 100
   floatData:
     floatRef: {fileID: 0}
     floatVal: 0
@@ -6712,6 +7563,7 @@ MonoBehaviour:
   eventHandler: {fileID: 0}
   commandList:
   - {fileID: 824764208}
+  - {fileID: 824764284}
   - {fileID: 824764265}
   - {fileID: 824764264}
   - {fileID: 824764263}
@@ -6737,7 +7589,7 @@ MonoBehaviour:
     booleanVal: 0
   integerData:
     integerRef: {fileID: 0}
-    integerVal: 3
+    integerVal: 300
   floatData:
     floatRef: {fileID: 0}
     floatVal: 0
@@ -6757,8 +7609,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 817
-    y: 18
+    x: 815
+    y: 19
     width: 120
     height: 40
   itemId: 45
@@ -6768,6 +7620,7 @@ MonoBehaviour:
   commandList:
   - {fileID: 824764210}
   - {fileID: 824764222}
+  - {fileID: 824764285}
   - {fileID: 824764269}
   - {fileID: 824764268}
   - {fileID: 824764267}
@@ -6808,19 +7661,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 824764159}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 437f9a4e3dbc647f9bdce95308418bff, type: 3}
+  m_Script: {fileID: 11500000, guid: afb91b566ceda411bad1e9d3c3243ecc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 53
-  errorMessage: 
-  indentLevel: 0
-  duration: 3
-  fadeOut: 0
-  targetView: {fileID: 1451842690}
-  waitUntilFinished: 1
-  fadeColor: {r: 0.96470594, g: 0.8588236, b: 0.8235295, a: 1}
-  fadeTexture: {fileID: 0}
-  targetCamera: {fileID: 0}
+  scope: 1
+  key: ViolaProfit
+  value: 0
 --- !u!114 &824764215
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -7067,7 +7913,7 @@ MonoBehaviour:
     booleanVal: 0
   integerData:
     integerRef: {fileID: 0}
-    integerVal: 1
+    integerVal: 100
   floatData:
     floatRef: {fileID: 0}
     floatVal: 0
@@ -7146,7 +7992,7 @@ MonoBehaviour:
     booleanVal: 0
   integerData:
     integerRef: {fileID: 0}
-    integerVal: 1
+    integerVal: 100
   floatData:
     floatRef: {fileID: 0}
     floatVal: 0
@@ -7741,7 +8587,7 @@ MonoBehaviour:
     booleanVal: 0
   integerData:
     integerRef: {fileID: 0}
-    integerVal: 1
+    integerVal: 100
   floatData:
     floatRef: {fileID: 0}
     floatVal: 0
@@ -8438,6 +9284,90 @@ MonoBehaviour:
   waitUntilFinished: 1
   fadeColor: {r: 0, g: 0, b: 0, a: 1}
   fadeTexture: {fileID: 0}
+--- !u!114 &824764283
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 824764159}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fb77d0ce495044f6e9feb91b31798e8c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 163
+  errorMessage: 
+  indentLevel: 0
+  variable: {fileID: 824764214}
+  setOperator: 2
+  booleanData:
+    booleanRef: {fileID: 0}
+    booleanVal: 0
+  integerData:
+    integerRef: {fileID: 0}
+    integerVal: 500
+  floatData:
+    floatRef: {fileID: 0}
+    floatVal: 0
+  stringData:
+    stringRef: {fileID: 0}
+    stringVal: 
+--- !u!114 &824764284
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 824764159}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fb77d0ce495044f6e9feb91b31798e8c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 162
+  errorMessage: 
+  indentLevel: 0
+  variable: {fileID: 824764214}
+  setOperator: 2
+  booleanData:
+    booleanRef: {fileID: 0}
+    booleanVal: 0
+  integerData:
+    integerRef: {fileID: 0}
+    integerVal: 1000
+  floatData:
+    floatRef: {fileID: 0}
+    floatVal: 0
+  stringData:
+    stringRef: {fileID: 0}
+    stringVal: 
+--- !u!114 &824764285
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 824764159}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fb77d0ce495044f6e9feb91b31798e8c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 161
+  errorMessage: 
+  indentLevel: 0
+  variable: {fileID: 824764214}
+  setOperator: 2
+  booleanData:
+    booleanRef: {fileID: 0}
+    booleanVal: 0
+  integerData:
+    integerRef: {fileID: 0}
+    integerVal: 1500
+  floatData:
+    floatRef: {fileID: 0}
+    floatVal: 0
+  stringData:
+    stringRef: {fileID: 0}
+    stringVal: 
 --- !u!1 &950437377
 GameObject:
   m_ObjectHideFlags: 0
@@ -8725,6 +9655,10 @@ GameObject:
   - 114: {fileID: 1065823480}
   - 114: {fileID: 1065823478}
   - 114: {fileID: 1065823476}
+  - 114: {fileID: 1065823485}
+  - 114: {fileID: 1065823484}
+  - 114: {fileID: 1065823482}
+  - 114: {fileID: 1065823483}
   m_Layer: 0
   m_Name: OwenFlowchart
   m_TagString: Untagged
@@ -8756,13 +9690,14 @@ MonoBehaviour:
     y: -426
     width: 2152
     height: 1393
-  selectedBlock: {fileID: 1065823390}
+  selectedBlock: {fileID: 1065823407}
   selectedCommands:
-  - {fileID: 1065823416}
+  - {fileID: 1065823482}
   variables:
   - {fileID: 1065823353}
   - {fileID: 1065823415}
   - {fileID: 1065823414}
+  - {fileID: 1065823483}
   description: 
   stepPause: 0
   colorCommands: 1
@@ -9067,7 +10002,7 @@ MonoBehaviour:
     booleanVal: 0
   integerData:
     integerRef: {fileID: 0}
-    integerVal: 1
+    integerVal: 100
   floatData:
     floatRef: {fileID: 0}
     floatVal: 0
@@ -9250,7 +10185,7 @@ MonoBehaviour:
     booleanVal: 0
   integerData:
     integerRef: {fileID: 0}
-    integerVal: 1
+    integerVal: 100
   floatData:
     floatRef: {fileID: 0}
     floatVal: 0
@@ -9500,7 +10435,7 @@ MonoBehaviour:
     booleanVal: 0
   integerData:
     integerRef: {fileID: 0}
-    integerVal: 1
+    integerVal: 100
   floatData:
     floatRef: {fileID: 0}
     floatVal: 0
@@ -9604,7 +10539,7 @@ MonoBehaviour:
     booleanVal: 0
   integerData:
     integerRef: {fileID: 0}
-    integerVal: 1
+    integerVal: 100
   floatData:
     floatRef: {fileID: 0}
     floatVal: 0
@@ -9753,7 +10688,7 @@ MonoBehaviour:
     booleanVal: 0
   integerData:
     integerRef: {fileID: 0}
-    integerVal: 1
+    integerVal: 100
   floatData:
     floatRef: {fileID: 0}
     floatVal: 0
@@ -9991,7 +10926,7 @@ MonoBehaviour:
     booleanVal: 0
   integerData:
     integerRef: {fileID: 0}
-    integerVal: 1
+    integerVal: 100
   floatData:
     floatRef: {fileID: 0}
     floatVal: 0
@@ -10072,7 +11007,7 @@ MonoBehaviour:
     booleanVal: 0
   integerData:
     integerRef: {fileID: 0}
-    integerVal: 3
+    integerVal: 300
   floatData:
     floatRef: {fileID: 0}
     floatVal: 0
@@ -10100,7 +11035,7 @@ MonoBehaviour:
     booleanVal: 0
   integerData:
     integerRef: {fileID: 0}
-    integerVal: 1
+    integerVal: 100
   floatData:
     floatRef: {fileID: 0}
     floatVal: 0
@@ -10128,7 +11063,7 @@ MonoBehaviour:
     booleanVal: 0
   integerData:
     integerRef: {fileID: 0}
-    integerVal: 3
+    integerVal: 300
   floatData:
     floatRef: {fileID: 0}
     floatVal: 0
@@ -10158,6 +11093,7 @@ MonoBehaviour:
   eventHandler: {fileID: 0}
   commandList:
   - {fileID: 1065823404}
+  - {fileID: 1065823482}
   - {fileID: 1065823422}
   - {fileID: 1065823478}
   - {fileID: 1065823476}
@@ -10176,7 +11112,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 947
+    x: 946
     y: 45
     width: 120
     height: 40
@@ -10186,6 +11122,7 @@ MonoBehaviour:
   eventHandler: {fileID: 0}
   commandList:
   - {fileID: 1065823405}
+  - {fileID: 1065823484}
   - {fileID: 1065823481}
   - {fileID: 1065823480}
   - {fileID: 1065823477}
@@ -10213,6 +11150,7 @@ MonoBehaviour:
   eventHandler: {fileID: 0}
   commandList:
   - {fileID: 1065823406}
+  - {fileID: 1065823485}
   - {fileID: 1065823427}
   - {fileID: 1065823461}
   - {fileID: 1065823479}
@@ -11138,7 +12076,7 @@ MonoBehaviour:
     booleanVal: 0
   integerData:
     integerRef: {fileID: 0}
-    integerVal: 1
+    integerVal: 100
   floatData:
     floatRef: {fileID: 0}
     floatVal: 0
@@ -11217,7 +12155,7 @@ MonoBehaviour:
     booleanVal: 0
   integerData:
     integerRef: {fileID: 0}
-    integerVal: 1
+    integerVal: 100
   floatData:
     floatRef: {fileID: 0}
     floatVal: 0
@@ -11347,7 +12285,7 @@ MonoBehaviour:
     booleanVal: 0
   integerData:
     integerRef: {fileID: 0}
-    integerVal: 1
+    integerVal: 100
   floatData:
     floatRef: {fileID: 0}
     floatVal: 0
@@ -11919,6 +12857,104 @@ MonoBehaviour:
   fadeWhenDone: 1
   waitForClick: 1
   setSayDialog: {fileID: 0}
+--- !u!114 &1065823482
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1065823351}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fb77d0ce495044f6e9feb91b31798e8c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 141
+  errorMessage: 
+  indentLevel: 0
+  variable: {fileID: 1065823483}
+  setOperator: 2
+  booleanData:
+    booleanRef: {fileID: 0}
+    booleanVal: 0
+  integerData:
+    integerRef: {fileID: 0}
+    integerVal: 500
+  floatData:
+    floatRef: {fileID: 0}
+    floatVal: 0
+  stringData:
+    stringRef: {fileID: 0}
+    stringVal: 
+--- !u!114 &1065823483
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1065823351}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: afb91b566ceda411bad1e9d3c3243ecc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  scope: 1
+  key: OwenProfit
+  value: 0
+--- !u!114 &1065823484
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1065823351}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fb77d0ce495044f6e9feb91b31798e8c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 140
+  errorMessage: 
+  indentLevel: 0
+  variable: {fileID: 1065823483}
+  setOperator: 2
+  booleanData:
+    booleanRef: {fileID: 0}
+    booleanVal: 0
+  integerData:
+    integerRef: {fileID: 0}
+    integerVal: 1000
+  floatData:
+    floatRef: {fileID: 0}
+    floatVal: 0
+  stringData:
+    stringRef: {fileID: 0}
+    stringVal: 
+--- !u!114 &1065823485
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1065823351}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fb77d0ce495044f6e9feb91b31798e8c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 139
+  errorMessage: 
+  indentLevel: 0
+  variable: {fileID: 1065823483}
+  setOperator: 2
+  booleanData:
+    booleanRef: {fileID: 0}
+    booleanVal: 0
+  integerData:
+    integerRef: {fileID: 0}
+    integerVal: 1500
+  floatData:
+    floatRef: {fileID: 0}
+    floatVal: 0
+  stringData:
+    stringRef: {fileID: 0}
+    stringVal: 
 --- !u!1 &1075064934
 GameObject:
   m_ObjectHideFlags: 0
@@ -12559,7 +13595,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 61dddfdc5e0e44ca298d8f46f7f5a915, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  selectedFlowchart: {fileID: 284533216}
+  selectedFlowchart: {fileID: 3311942}
 --- !u!4 &1725286329
 Transform:
   m_ObjectHideFlags: 1
