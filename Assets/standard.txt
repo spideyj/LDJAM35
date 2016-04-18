@@ -8,19 +8,19 @@ Use a friendly approach
 Use the direct approach
 
 #SAY.IrisFlowchart.7.Dr. Acute
-Welcome to the Acute Triangle Clinic. I'm Dr Acute.
+Hi, I'm Dr Acute, and welcome to my clinic.
 
 #SAY.IrisFlowchart.34.Dr. Acute
-Why don't you take a moment to tell me a little bit about yourself so we can get to know each other a little better?
+Would you mind telling me a little something about your background and what brings you into the clinic today?
 
 #SAY.IrisFlowchart.8.Iris
-Well, hello, Doctor. Nice to meet you! I'm Owen Obtuse.
+Okay. My name is Iris, Iris Isosceles.
 
 #SAY.IrisFlowchart.47.Iris
-You know, Owen Obtuse, star rugby player?
+I've been pretty busy for the last couple of years getting my business up and running...
 
-#SAY.IrisFlowchart.48.Iris
-Oh, well. Anyway, my triangle is a little off-center and it's starting to bother me. Can you fix it, Doc?
+#SAY.IrisFlowchart.64.Iris
+...and a friend of mine suggested coming here as a way to celebrate my success.
 
 #MENU.IrisFlowchart.9
 Respond encouragingly
@@ -29,10 +29,13 @@ Respond encouragingly
 Respond with concern
 
 #SAY.IrisFlowchart.11.Dr. Acute
-Hi, I'm Dr Acute. How can I help you today?
+Hi, I'm Dr Acute. What can I do for you today?
 
 #SAY.IrisFlowchart.12.Iris
-It's my triangle! After getting busted up a few too many times, it's just not in the right spot any more!
+Oh! Right to the point, I see.
+
+#SAY.IrisFlowchart.65.Iris
+Well, a friend of mine suggested coming here, she said she thought it would be "fun".
 
 #MENU.IrisFlowchart.41
 Respond encouragingly
@@ -41,55 +44,211 @@ Respond encouragingly
 Respond with concern
 
 #SAY.IrisFlowchart.17.Dr. Acute
-Yeah, I'm sure we can get you back to new in no time! Or maybe better than new!
+Well, a bold new look could be just the thing!
 
 #SAY.IrisFlowchart.49.Dr. Acute
-Now, let's go over your options, if that's okay with you, Owen?
+Let me go over some options with you, I'm sure you'll find something to your liking.
 
 #SAY.IrisFlowchart.18.Iris
-Absolutely.
+Okay.
 
 #MENU.IrisFlowchart.21
-Get right down to business
+Go for the sale
 
 #MENU.IrisFlowchart.22
-Respond with caution
+Ask if Iris is sure
 
 #SAY.IrisFlowchart.24.Dr. Acute
-Hmmm, you do seem to have done quite a number on yourself.
+So this was your friend's idea? Are you sure this is something you really want?
 
 #SAY.IrisFlowchart.25.Iris
-
+You know, I'm really {b}not{/b} sure, now that you mention it.
 
 #MENU.IrisFlowchart.43
-Get right down to business
+Go for the sale
 
 #MENU.IrisFlowchart.44
-Respond with caution
+Ask if Iris is sure
 
 #SAY.IrisFlowchart.29.Dr. Acute
-Okay, here are your options, as I see it.
-
-#SAY.IrisFlowchart.35.Dr. Acute
-We've got this very dramatic shape here, then this slightly less dramatic one.
+So, these are my suggestions.
 
 #SAY.IrisFlowchart.36.Dr. Acute
-We also have this very practical but still pretty option. What do you think?
+This one would be a less bold shift, but we can make it work if that's what you really want.
+
+#SAY.IrisFlowchart.69.Dr. Acute
+I'd really recommend the former option though.
 
 #SAY.IrisFlowchart.30.Iris
-I'd like the MOST dramatic shape you can create! Go big or go home, right?!
+I don't know about this. It seems a little extreme, don't you think?
+
+#MENU.IrisFlowchart.74
+Keep pushing the hard sell
+
+#MENU.IrisFlowchart.75
+Back off a little bit
+
+#MENU.IrisFlowchart.76
+Suggest a compromise
+
+#MENU.IrisFlowchart.77
+Propose an alternative to surgery
 
 #SAY.IrisFlowchart.32.Dr. Acute
-Well, we have a few options. Here's this moderately dramatic shape, you see, and then there's this one.
-
-#SAY.IrisFlowchart.37.Dr. Acute
-It's not quite as bold a shift but I think you'll find it's very becoming.
-
-#SAY.IrisFlowchart.38.Dr. Acute
-And of course you can change your mind at any point before we start.
+You seem like you're unsure. You know, surgery isn't for everyone. It's okay to change your mind.
 
 #SAY.IrisFlowchart.33.Iris
-No, there's no going back. Is that really all you've got? I was hoping for something a {b}bit{/b} more impressive...
+Yeah, maybe you're right... I'm not sure what I was thinking.
+
+#MENU.IrisFlowchart.78
+Push for a hard sell
+
+#MENU.IrisFlowchart.79
+Suggest some moderate changes
+
+#MENU.IrisFlowchart.80
+Suggest a compromise
+
+#MENU.IrisFlowchart.81
+Propose an alternative to surgery
+
+#SAY.IrisFlowchart.158.Dr. Acute
+Well, hello again. Let's get those bandages off, shall we?
+
+#SAY.IrisFlowchart.159.Iris
+Okay.
+
+#SAY.IrisFlowchart.160.Dr. Acute
+Taking them off now, it'll just be a moment.
+
+#SAY.IrisFlowchart.162.Iris
+Oh no, what have you done?!!
+
+#SAY.IrisFlowchart.164.Iris
+I'm not sure how I feel about this...
+
+#SAY.IrisFlowchart.166.Iris
+I guess this isn't too bad.
+
+#SAY.IrisFlowchart.129.Dr. Acute
+We're all set!
+
+#SAY.IrisFlowchart.135.Dr. Acute
+Just check in with the receptionist in the waiting room and set an appointment to come back in and remove the bandages in a few weeks.
+
+#SAY.IrisFlowchart.136.Iris
+All right.
+
+#MENU.IrisFlowchart.137
+Remove the bandages
+
+#SAY.IrisFlowchart.138.Dr. Acute
+We're all set!
+
+#SAY.IrisFlowchart.139.Dr. Acute
+Just check in with the receptionist in the waiting room and set an appointment to come back in and remove the bandages in a few weeks.
+
+#SAY.IrisFlowchart.140.Iris
+All right.
+
+#MENU.IrisFlowchart.141
+Remove the bandages
+
+#SAY.IrisFlowchart.142.Dr. Acute
+We're all set!
+
+#SAY.IrisFlowchart.143.Dr. Acute
+Just check in with the receptionist in the waiting room and set an appointment to come back in and remove the bandages in a few weeks.
+
+#SAY.IrisFlowchart.144.Iris
+All right.
+
+#MENU.IrisFlowchart.145
+Remove the bandages
+
+#SAY.IrisFlowchart.152.Dr. Acute
+May I make a suggestion? There's a travel agency next door. Maybe a cruise or a vacation somewhere beautiful is more your speed.
+
+#SAY.IrisFlowchart.153.Iris
+Oh, that {i}does{/i} sound perfect! Thank you, doctor, that's a fantastic suggestion.
+
+#SAY.IrisFlowchart.154.Dr. Acute
+No problem! And don't hesitate to come back if you change your mind.
+
+#SAY.IrisFlowchart.155.Iris
+Thank you again, doctor. I'll be seeing you!
+
+#SAY.IrisFlowchart.100.Dr. Acute
+Just think! A brand new you to capstone all of your accomplishments!
+
+#SAY.IrisFlowchart.101.Iris
+I'm not sure I really feel like a new me is in order, here.
+
+#MENU.IrisFlowchart.102
+Give Iris the most expensive procedure
+
+#MENU.IrisFlowchart.103
+Give Iris a moderate procedure
+
+#MENU.IrisFlowchart.104
+Give Iris a small adjustment
+
+#MENU.IrisFlowchart.105
+Don't perform surgery after all
+
+#SAY.IrisFlowchart.120.Dr. Acute
+We could do a minor adjustment, just perk things up a little bit. How does that sound?
+
+#SAY.IrisFlowchart.121.Iris
+That sounds like it might be all right.
+
+#MENU.IrisFlowchart.110
+Give Iris the most expensive procedure
+
+#MENU.IrisFlowchart.111
+Give Iris a moderate procedure
+
+#MENU.IrisFlowchart.112
+Give Iris a small adjustment
+
+#MENU.IrisFlowchart.113
+Don't perform surgery after all
+
+#SAY.IrisFlowchart.118.Dr. Acute
+Well, why don't we try for something somewhere in the middle? Still fresh but maybe not quite so dramatic.
+
+#SAY.IrisFlowchart.119.Iris
+I don't know...
+
+#MENU.IrisFlowchart.106
+Give Iris the most expensive procedure
+
+#MENU.IrisFlowchart.107
+Give Iris a moderate procedure
+
+#MENU.IrisFlowchart.108
+Give Iris a small adjustment
+
+#MENU.IrisFlowchart.109
+Don't perform surgery after all
+
+#SAY.IrisFlowchart.122.Dr. Acute
+You know, it sounds like you'd rather not go through with this.
+
+#SAY.IrisFlowchart.123.Iris
+Yeah, I think you're probably right.
+
+#MENU.IrisFlowchart.114
+Give Iris the most expensive procedure
+
+#MENU.IrisFlowchart.115
+Give Iris a moderate procedure
+
+#MENU.IrisFlowchart.116
+Give Iris a small adjustment
+
+#MENU.IrisFlowchart.117
+Don't perform surgery after all
 
 #MENU.MainFlowchart.10
 See Viola Vertex
@@ -104,13 +263,13 @@ See Iris Isosceles
 Done seeing clients for today
 
 #MENU.ViolaFlowchart.5
-Use a friendly approach
+Greet Viola in a friendly way
 
 #MENU.ViolaFlowchart.6
-Use the direct approach
+Or use a direct approach
 
 #SAY.ViolaFlowchart.7.Dr. Acute
-Hello, and welcome to the Acute Triangle Clinic. I'm Dr Acute.
+Hello, and welcome to the Acute Aesthetic Medicine Clinic. I'm Dr Acute.
 
 #SAY.ViolaFlowchart.34.Dr. Acute
 Why don't we take a moment to get to know each other - would you like to tell me a little bit about yourself?
@@ -172,6 +331,18 @@ We also have this very practical but still pretty option. What do you think?
 #SAY.ViolaFlowchart.30.Viola
 I'd like the MOST dramatic shape you can create! Go big or go home, right?!
 
+#MENU.ViolaFlowchart.61
+Give her what she wants
+
+#MENU.ViolaFlowchart.62
+Suggest a slightly moderate option
+
+#MENU.ViolaFlowchart.63
+Press for a conservative approach
+
+#MENU.ViolaFlowchart.64
+Tell her she doesn't need surgery
+
 #SAY.ViolaFlowchart.32.Dr. Acute
 Well, we have a few options. Here's this moderately dramatic shape, you see, and then there's this one.
 
@@ -184,6 +355,150 @@ And of course you can change your mind at any point before we start.
 #SAY.ViolaFlowchart.33.Viola
 No, there's no going back. Is that really all you've got? I was hoping for something a {b}bit{/b} more impressive...
 
+#MENU.ViolaFlowchart.65
+Give her what she wants
+
+#MENU.ViolaFlowchart.66
+Suggest a slightly moderate option
+
+#MENU.ViolaFlowchart.67
+Press for a conservative approach
+
+#MENU.ViolaFlowchart.68
+Tell her she doesn't need surgery
+
+#SAY.ViolaFlowchart.150.Dr. Acute
+Good to see you again! All ready to view my handiwork now?
+
+#SAY.ViolaFlowchart.151.Viola
+I can't wait!
+
+#SAY.ViolaFlowchart.152.Dr. Acute
+Okay, just hang on for a sec... there we go!
+
+#SAY.ViolaFlowchart.154.Viola
+Really?!! This is what I paid for?!!
+
+#SAY.ViolaFlowchart.156.Viola
+Wow, fantastic!!! I love it!
+
+#SAY.ViolaFlowchart.158.Viola
+Well, I was hoping for something a {i}bit{/i} more exciting, but this will do, I suppose. Thanks, Dr Acute.
+
+#SAY.ViolaFlowchart.113.Dr. Acute
+Voila! Finished!
+
+#SAY.ViolaFlowchart.135.Dr. Acute
+Be sure to set an appointment with the receptionist on your way out so you can come back and remove those bandages!
+
+#SAY.ViolaFlowchart.136.Viola
+Will do!
+
+#MENU.ViolaFlowchart.137
+Remove the bandages
+
+#SAY.ViolaFlowchart.138.Dr. Acute
+Voila! Finished!
+
+#SAY.ViolaFlowchart.139.Dr. Acute
+Be sure to set an appointment with the receptionist on your way out so you can come back and remove those bandages!
+
+#SAY.ViolaFlowchart.140.Viola
+Will do!
+
+#MENU.ViolaFlowchart.141
+Remove the bandages
+
+#SAY.ViolaFlowchart.142.Dr. Acute
+Voila! Finished!
+
+#SAY.ViolaFlowchart.143.Dr. Acute
+Be sure to set an appointment with the receptionist on your way out so you can come back and remove those bandages!
+
+#SAY.ViolaFlowchart.144.Viola
+Will do!
+
+#MENU.ViolaFlowchart.145
+Remove the bandages
+
+#SAY.ViolaFlowchart.146.Viola
+I can't believe this! Now I'll have to go find another surgeon. And they said you were the best!!!
+
+#SAY.ViolaFlowchart.69.Dr. Acute
+It's not often that I get a client as enthusiastic and direct about her wants as you, Viola. How delightful!
+
+#SAY.ViolaFlowchart.70.Dr. Acute
+Let's get you prepped, shall we?
+
+#SAY.ViolaFlowchart.71.Viola
+Yes please!
+
+#MENU.ViolaFlowchart.76
+Give Viola the most extreme procedure
+
+#MENU.ViolaFlowchart.77
+Give Viola a moderate procedure
+
+#MENU.ViolaFlowchart.78
+Give Viola a tiny change
+
+#MENU.ViolaFlowchart.79
+Don't perform surgery after all
+
+#SAY.ViolaFlowchart.92.Dr. Acute
+How about we try this slightly less extreme triangle out and if you don't like it, you can come back?
+
+#SAY.ViolaFlowchart.93.Viola
+I suppose.
+
+#MENU.ViolaFlowchart.80
+Give Viola the most extreme procedure
+
+#MENU.ViolaFlowchart.81
+Give Viola a moderate procedure
+
+#MENU.ViolaFlowchart.82
+Give Viola a tiny change
+
+#MENU.ViolaFlowchart.83
+Don't perform surgery after all
+
+#SAY.ViolaFlowchart.95.Dr. Acute
+I really prefer to start small with new clients. So let's try this minor shift and see how we like it, okay?
+
+#SAY.ViolaFlowchart.96.Viola
+If you must.
+
+#MENU.ViolaFlowchart.84
+Give Viola the most extreme procedure
+
+#MENU.ViolaFlowchart.85
+Give Viola a moderate procedure
+
+#MENU.ViolaFlowchart.86
+Give Viola a tiny change
+
+#MENU.ViolaFlowchart.87
+Don't perform surgery after all
+
+#SAY.ViolaFlowchart.97.Dr. Acute
+I'm not really comfortable performing this procedure for you today, I'm sorry.
+
+#SAY.ViolaFlowchart.99.Viola
+What?!! This is ridiculous! How do you keep your business going like this?!!!
+
+#MENU.ViolaFlowchart.88
+Give Viola the most extreme procedure
+
+#MENU.ViolaFlowchart.89
+Give Viola a moderate procedure
+
+#MENU.ViolaFlowchart.90
+Give Viola a tiny change
+
+#MENU.ViolaFlowchart.91
+Don't perform surgery after all
+
 #MENU.OwenFlowchart.5
 Use a friendly approach
 
@@ -191,7 +506,7 @@ Use a friendly approach
 Use the direct approach
 
 #SAY.OwenFlowchart.7.Dr. Acute
-Welcome to the Acute Triangle Clinic. I'm Dr Acute.
+Welcome to the Acute Aesthetic Medicine Clinic. I'm Dr Acute.
 
 #SAY.OwenFlowchart.34.Dr. Acute
 Why don't you take a moment to tell me a little bit about yourself so we can get to know each other a little better?
@@ -392,7 +707,10 @@ Give Owen a small adjustment
 Don't perform surgery after all
 
 #SAY.OwenFlowchart.112.Dr. Acute
-We're all done! Just talk to the receptionist on your way out and she'll set an appointment for you to come back in and remove the bandages in a few weeks.
+We're all done!
+
+#SAY.OwenFlowchart.134.Dr. Acute
+Just talk to the receptionist on your way out and she'll set an appointment for you to come back in and remove the bandages in a few weeks.
 
 #SAY.OwenFlowchart.113.Owen
 Okay, thanks.
@@ -400,8 +718,26 @@ Okay, thanks.
 #MENU.OwenFlowchart.93
 Remove the bandages
 
+#SAY.OwenFlowchart.135.Dr. Acute
+We're all done!
+
+#SAY.OwenFlowchart.136.Dr. Acute
+Just talk to the receptionist on your way out and she'll set an appointment for you to come back in and remove the bandages in a few weeks.
+
+#SAY.OwenFlowchart.131.Owen
+Okay, thanks.
+
 #MENU.OwenFlowchart.94
 Remove the bandages
+
+#SAY.OwenFlowchart.137.Dr. Acute
+We're all done!
+
+#SAY.OwenFlowchart.138.Dr. Acute
+Just talk to the receptionist on your way out and she'll set an appointment for you to come back in and remove the bandages in a few weeks.
+
+#SAY.OwenFlowchart.133.Owen
+Okay, thanks.
 
 #MENU.OwenFlowchart.95
 Remove the bandages
